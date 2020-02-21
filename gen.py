@@ -1,6 +1,8 @@
 def create(b,e):
  if e-b>256:
   print(b,end='\r')
+ if b>2**16*17:
+  return 0
  ext=open('hide_auto_'+str(b)+'_'+str(e)+'.xml','w')
  ext.write('<?xml version="1.0" encoding="utf-8"?>\n<Keyboard\nxmlns:android="http://schemas.android.com/apk/res/android"\nandroid:keyWidth="'+('6.25' if (b-e)<=256 else '12.5')+'%p">\n')
  if e-b<=256:
