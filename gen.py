@@ -26,6 +26,67 @@ def create(b,e):
     ext.write('/>\n')
     create(w,w+(e-b)//64)
    ext.write('</Row><!--000000000000000000000000000000000000--/>')
+ ext.write(''' <Row>
+  <Key
+   android:keyLabel="⟪⟪⟪⟪"
+   android:keyboard="hide_me_-256.xml"
+   android:longCode="0"
+   android:isRepeatable="true"
+   android:keyWidth="10.0%p"
+                                                  />
+  <Key
+   android:keyLabel="⇦"
+   android:codes="21"
+   android:isRepeatable="true"
+   android:keyWidth="10.0%p"
+                                                  />
+  <Key
+   android:keyLabel="⇨"
+   android:codes="22"
+   android:isRepeatable="true"
+   android:keyWidth="10.0%p"
+                                                  />
+  <Key
+   android:keyLabel="cop"
+   android:codes="-320"
+   android:isRepeatable="true"
+   android:keyWidth="10.0%p"
+                                                  />
+  <Key
+   android:keyLabel="pas"
+   android:codes="-504"
+   android:isRepeatable="true"
+   android:keyWidth="10.0%p"
+                                                  />
+  <Key
+   android:keyLabel="⌫"
+   android:codes="-5"
+   android:isRepeatable="true"
+   android:keyWidth="10.0%p"
+                                                  />
+  <Key
+   android:keyLabel="sel"
+   android:codes="-310"
+   android:isRepeatable="true"
+   android:isSticky="true"
+   android:keyWidth="10.0%p"
+                                                  />
+  <Key
+   android:keyLabel="'+str(b)+' '+str(e)+'"
+   android:isRepeatable="true"
+   android:goQwerty="true"
+   android:codes="-2"
+   android:longCode="0"
+   android:keyWidth="20.0%p"
+                                                  />
+  <Key
+   android:keyLabel="⟫⟫⟫⟫"
+   android:isRepeatable="true"
+   android:keyboard="hide_me_256.xml"
+   android:longCode="0"
+   android:keyWidth="10.0%p"
+                                                  />
+  </Row>''')
  ext.write('</Keyboard>')
  ext.close()
 create(0,2**26)
