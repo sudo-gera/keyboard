@@ -20,7 +20,7 @@ def create(b,e):
  else:
   for q in range(b,e,(e-b)//8):
    ext.write('<Row android:keyHeight="125%p">\n')
-   for w in range(w,w+(e-b)//8,(e-b)//64):
+   for w in range(q,q+(e-b)//8,(e-b)//64):
     ext.write('<Key\n')
     ext.write(' android:keyLabel="'+str(w)+'\n'+str(w+(e-b)//64)+'"\n')
     ext.write(' android:smallLabel="true"\n')
