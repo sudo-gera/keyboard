@@ -91,7 +91,7 @@ def create(b,e):
    android:keyWidth="10.0%p"
                                                   />
   </Row>''')
- return 1
  ext.write('</Keyboard>')
  ext.close()
+ return 1
 create(0,2**26)
