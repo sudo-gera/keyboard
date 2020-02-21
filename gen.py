@@ -1,3 +1,4 @@
+x={'"':'&quot;','&':'&amp',"'":'&apos;','<':'&lt;','>':'&gt;'}
 def create(b,e):
  if e-b>256:
   print(b,end='\r')
@@ -11,7 +12,10 @@ def create(b,e):
    for w in range(q,q+16):
     ext.write('<Key\n')
     try:
-     ext.write(' android:keyLabel="'+chr(w)+'"\n')
+     if b==0 and chr(w) in x:
+      ext.write(' android:keyLabel="'+x[chr(w)]+'"\n')
+     else:
+      ext.write(' android:keyLabel="'+x[chr(w)]+'"\n')
     except:
      ext.write(' android:keyLabel="'+str(w)+'"\n')
     ext.write(' android:smallLabel="true"\n')
@@ -33,7 +37,7 @@ def create(b,e):
  ext.write(''' <Row>
   <Key
    android:keyLabel="⟪⟪⟪⟪"
-   android:keyboard="hide_me_-256.xml"
+   android:keyboard="hide_'''+str(b+b-e)+'_'+str(b)+'''.xml"
    android:longCode="0"
    android:isRepeatable="true"
    android:keyWidth="10.0%p"
@@ -86,7 +90,7 @@ def create(b,e):
   <Key
    android:keyLabel="⟫⟫⟫⟫"
    android:isRepeatable="true"
-   android:keyboard="hide_me_256.xml"
+   android:keyboard="hide_me_'''+str(b)+'_'+str(e+e-b)+'''.xml"
    android:longCode="0"
    android:keyWidth="10.0%p"
                                                   />
