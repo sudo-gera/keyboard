@@ -1,6 +1,14 @@
 x={'"':'&quot;','&':'&amp',"'":'&apos;','<':'&lt;','>':'&gt;'}
 u='º¹²³⁴⁵⁶⁷⁸⁹'
 l='₀₁₂₃₄₅₆₇₈₉'
+n='01234567890'
+def less(q,a):
+ q=str(q)
+ if a:
+  y=u
+ else:
+  y=l
+ return ''.join([y[n.index(w)] for w in q])
 def create(b,e):
  if e-b>256:
   print(b,end='\r')
@@ -32,7 +40,7 @@ def create(b,e):
    for w in range(q,q+(e-b)//8,(e-b)//64):
     if create(w,w+(e-b)//64):
      ext.write('<Key\n')
-     ext.write(' android:keyLabel="'+str(w)+' '+str(w+(e-b)//64)+'"\n')
+     ext.write(' android:keyLabel="'+less(w,1)+less(w+(e-b)//64)+'"\n')
      ext.write(' android:smallLabel="true"\n')
      ext.write(' android:keyboard="hide_auto_'+str(w)+'_'+str(w+(e-b)//64)+'.xml"\n')
      ext.write('/>\n')
