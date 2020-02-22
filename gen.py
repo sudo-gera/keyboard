@@ -12,7 +12,7 @@ def less(q,a=0):
 def create(b,e):
  if e-b>256:
   print(b,end='\r')
- if b>2**16*17:
+ if b>=2**16*17:
   return 0
  ext=open('hide_auto_'+str(b)+'_'+str(e)+'.xml','w')
  if e-b<=256:
