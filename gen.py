@@ -15,7 +15,7 @@ def create(b,e):
      if b==0 and chr(w) in x:
       ext.write(' android:keyLabel="'+x[chr(w)]+'"\n')
      else:
-      ext.write(' android:keyLabel="'+x[chr(w)]+'"\n')
+      ext.write(' android:keyLabel="'+chr(w)+'"\n')
     except:
      ext.write(' android:keyLabel="'+str(w)+'"\n')
     ext.write(' android:smallLabel="true"\n')
@@ -29,7 +29,7 @@ def create(b,e):
    for w in range(q,q+(e-b)//8,(e-b)//64):
     if create(w,w+(e-b)//64):
      ext.write('<Key\n')
-     ext.write(' android:keyLabel="'+str(w)+'\n'+str(w+(e-b)//64)+'"\n')
+     ext.write(' android:keyLabel="'+str(w)+'\\n'+str(w+(e-b)//64)+'"\n')
      ext.write(' android:smallLabel="true"\n')
      ext.write(' android:keyboard="hide_'+str(w)+'_'+str(w+(e-b)//64)+'.xml"\n')
      ext.write('/>\n')
