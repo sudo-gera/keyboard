@@ -22,7 +22,7 @@ def create(b,e):
     ext.write(' android:codes="'+str(w)+'"\n')
     ext.write(' android:longCode="-'+str(w)+'"\n')
     ext.write('/>\n')
-   ext.write('</Row><!--000000000000000000000000000000000000--/>')
+   ext.write('</Row><!--000000000000000000000000000000000000-->')
  else:
   ext.write('<?xml version="1.0" encoding="utf-8"?>\n<Keyboard\nxmlns:android="http://schemas.android.com/apk/res/android"\nandroid:keyWidth="12.5%p">\n')
   for q in range(b,e,(e-b)//8):
@@ -34,7 +34,7 @@ def create(b,e):
      ext.write(' android:smallLabel="true"\n')
      ext.write(' android:keyboard="hide_auto_'+str(w)+'_'+str(w+(e-b)//64)+'.xml"\n')
      ext.write('/>\n')
-   ext.write('</Row><!--000000000000000000000000000000000000--/>')
+   ext.write('</Row><!--000000000000000000000000000000000000-->')
  ext.write(''' <Row>
   <Key
    android:keyLabel="⟪⟪⟪⟪"
