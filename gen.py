@@ -101,7 +101,7 @@ def create(b,e):
   <Key
    android:keyLabel="⟫⟫⟫⟫"
    android:isRepeatable="true"
-   android:keyboard="hide_auto_'''+str(b)+'_'+str(e+e-b)+'''.xml"
+   android:keyboard="hide_auto_'''+str(e)+'_'+str(e+e-b)+'''.xml"
    android:longCode="0"
    android:keyWidth="10.0%p"
                                                   />
