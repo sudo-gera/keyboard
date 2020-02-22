@@ -48,7 +48,7 @@ def create(b,e):
  ext.write(''' <Row>
   <Key
    android:keyLabel="⟪⟪⟪⟪"
-   android:keyboard="hide_'''+str(b+b-e)+'_'+str(b)+'''.xml"
+   android:keyboard="hide_auto_'''+str(b+b-e)+'_'+str(b)+'''.xml"
    android:longCode="0"
    android:isRepeatable="true"
    android:keyWidth="10.0%p"
@@ -91,7 +91,7 @@ def create(b,e):
    android:keyWidth="10.0%p"
                                                   />
   <Key
-   android:keyLabel="'+str(b)+' '+str(e)+'"
+   android:keyLabel="'''+str(b)+' '+str(e)+'''"
    android:isRepeatable="true"
    android:goQwerty="true"
    android:codes="-2"
@@ -101,7 +101,7 @@ def create(b,e):
   <Key
    android:keyLabel="⟫⟫⟫⟫"
    android:isRepeatable="true"
-   android:keyboard="hide_me_'''+str(b)+'_'+str(e+e-b)+'''.xml"
+   android:keyboard="hide_auto_'''+str(b)+'_'+str(e+e-b)+'''.xml"
    android:longCode="0"
    android:keyWidth="10.0%p"
                                                   />
