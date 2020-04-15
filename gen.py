@@ -28,9 +28,9 @@ def create(b,e):
       ext.write(' android:keyLabel="'+chr(w)+'"\n')
     except:
      ext.write(' android:keyLabel="'+str(w)+'"\n')
-    ext.write(' android:smallLabel="true"\n')
-    ext.write(' android:codes="'+str(w)+'"\n')
-    ext.write(' android:longCode="-'+str(w)+'"\n')
+#    ext.write(' android:smallLabel="true"\n')
+#    ext.write(' android:codes="'+str(w)+'"\n')
+#    ext.write(' android:longCode="-'+str(w)+'"\n')
     ext.write('/>\n')
    ext.write('</Row><!--000000000000000000000000000000000000-->')
  else:
@@ -42,13 +42,13 @@ def create(b,e):
      ext.write('<Key\n')
      ext.write(' android:keyLabel="'+less(w,1)+less(w+(e-b)//64)+'"\n')
      ext.write(' android:smallLabel="true"\n')
-     ext.write(' android:keyboard="hide_auto_'+str(w)+'_'+str(w+(e-b)//64)+'.xml"\n')
+     ext.write(' android:keyboard="auto/hide_auto_'+str(w)+'_'+str(w+(e-b)//64)+'.xml"\n')
      ext.write('/>\n')
    ext.write('</Row><!--000000000000000000000000000000000000-->')
  ext.write(''' <Row>
   <Key
    android:keyLabel="⟪⟪⟪⟪"
-   android:keyboard="hide_auto_'''+str(b+b-e)+'_'+str(b)+'''.xml"
+   android:keyboard="auto/hide_auto_'''+str(b+b-e)+'_'+str(b)+'''.xml"
    android:longCode="0"
    android:isRepeatable="true"
    android:keyWidth="10.0%p"
@@ -101,7 +101,7 @@ def create(b,e):
   <Key
    android:keyLabel="⟫⟫⟫⟫"
    android:isRepeatable="true"
-   android:keyboard="hide_auto_'''+str(e)+'_'+str(e+e-b)+'''.xml"
+   android:keyboard="auto/hide_auto_'''+str(e)+'_'+str(e+e-b)+'''.xml"
    android:longCode="0"
    android:keyWidth="10.0%p"
                                                   />
