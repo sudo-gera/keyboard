@@ -11,28 +11,29 @@ def less(q,a=0):
  return ''.join([y[n.index(w)] for w in q])
 def create(b,e):
  if e-b>256:
-  print(b,end='\r')
+  te=int(b*80/1300000)
+  print('█'*te+'-'*(80-te),end='\r')
  if b>=2**16*17:
   return 0
  ext=open('hide_auto_'+str(b)+'_'+str(e)+'.xml','w')
  if e-b<=256:
   ext.write('<?xml version="1.0" encoding="utf-8"?>\n<Keyboard\nxmlns:android="http://schemas.android.com/apk/res/android"\nandroid:keyWidth="6.25%p">\n')
   for q in range(b,e,16):
-   ext.write('<Row android:keyHeight="62.5%p">\n')
+   ext.write(' <Row android:keyHeight="62.5%p">\n')
    for w in range(q,q+16):
-    ext.write('<Key\n')
+    ext.write('  <Key\n')
     try:
      if b==0 and chr(w) in x:
-      ext.write(' android:keyLabel="'+x[chr(w)]+'"\n')
+      ext.write('   android:keyLabel="'+x[chr(w)]+'"\n')
      else:
-      ext.write(' android:keyLabel="'+chr(w)+'"\n')
+      ext.write('   android:keyLabel="'+chr(w)+'"\n')
     except:
-     ext.write(' android:keyLabel="'+str(w)+'"\n')
-#    ext.write(' android:smallLabel="true"\n')
-#    ext.write(' android:codes="'+str(w)+'"\n')
-#    ext.write(' android:longCode="-'+str(w)+'"\n')
-    ext.write('/>\n')
-   ext.write('</Row><!--000000000000000000000000000000000000-->')
+     ext.write('   android:keyLabel="'+str(w)+'"\n')
+    ext.write('   android:smallLabel="true"\n')
+#    ext.write('   android:codes="'+str(w)+'"\n')
+    ext.write('   android:longCode="-'+str(w)+'"\n')
+    ext.write(' />\n')
+   ext.write(' </Row>\n<!--000000000000000000000000000000000000-->')
  else:
   ext.write('<?xml version="1.0" encoding="utf-8"?>\n<Keyboard\nxmlns:android="http://schemas.android.com/apk/res/android"\nandroid:keyWidth="12.5%p">\n')
   for q in range(b,e,(e-b)//8):
