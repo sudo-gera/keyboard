@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="show_kbd_notif" value="false" />
+    <boolean name="add_space_before_sentence" value="false" />
+    <boolean name="del_space" value="false" />
+    <int name="int_first_repeat" value="250" />
+    <boolean name="sound" value="false" />
+    <boolean name="ac_place_arrow_down" value="false" />
+    <string name="g_left">0</string>
+    <string name="sentence_ends">.!?</string>
+    <string name="shift_state">0</string>
+    <boolean name="up_sentence" value="true" />
+    <boolean name="mini_kbd_its" value="false" />
+    <string name="g_space_left">0</string>
+    <string name="ac_defkey">$[-500,Menu] ! @ ? ; : , .</string>
+    <string name="landscape_type">0</string>
+    <string name="popup_win_size">2</string>
+    <string name="langs">ru,en</string>
+    <int name="int_min_press" value="1" />
+    <string name="macro1"></string>
+    <boolean name="ac_student_ext_dict" value="false" />
+    <string name="mm_textsize_btn">15</string>
+    <string name="edit_set">0;0;0.0</string>
+    <boolean name="vibro_silent" value="false" />
+    <string name="mainmenu_new">-502,-504,-503,-517,-511,</string>
+    <boolean name="ac_replace_separator_symbol" value="false" />
+    <string name="minikbd_btn_size">0</string>
+    <string name="kl_path_en">/storage/emulated/0/jbak2Keyboard/keyboards/en_me_l.xml</string>
+    <string name="g_down">19</string>
+    <int name="clipboard_sync_cnt" value="20" />
+    <boolean name="counter" value="false" />
+    <int name="kbd_pos_p" value="0" />
+    <boolean name="clipboard_sync_create" value="false" />
+    <string name="key_preview">0</string>
+    <boolean name="ac_autocorrect" value="true" />
+    <string name="g_space_right">0</string>
+    <boolean name="ac_space" value="true" />
+    <string name="g_space_down">0</string>
+    <int name="kbd_pos_l" value="0" />
+    <boolean name="vibro_repeat" value="false" />
+    <string name="lastLng">en</string>
+    <string name="g_length">100</string>
+    <string name="kp_path_en">/storage/emulated/0/jbak2Keyboard/keyboards/en_me_p.xml</string>
+    <float name="kh_l" value="0.07777778" />
+    <string name="g_space_up">0</string>
+    <string name="clipboard_size">1000</string>
+    <string name="kbd_background_alpha">0</string>
+    <string name="mm_textsize_btn_off">8</string>
+    <string name="kl_path_num">/storage/emulated/0/jbak2Keyboard/keyboards/num_me_p.xml</string>
+    <boolean name="clipboard_btn_sync_show" value="true" />
+    <string name="kp_path_ru">/storage/emulated/0/jbak2Keyboard/keyboards/ru_me_p.xml</string>
+    <string name="kp_path_num">/storage/emulated/0/jbak2Keyboard/keyboards/num_me_p.xml</string>
+    <boolean name="keycode" value="false" />
+    <string name="macro2">-372,-299,-388,-317,-325,-350,-325,</string>
+    <boolean name="space_after_sentence" value="true" />
+    <string name="portrait_type">0</string>
+    <string name="enter_pict">1</string>
+    <int name="int_next_repeat" value="50" />
+    <string name="kbd_skin_path">/storage/emulated/0/jbak2Keyboard/skins/123.skin</string>
+    <boolean name="use_gestures" value="true" />
+    <string name="add_space_before_symbols">—№</string>
+    <boolean name="ac_list_dropdown" value="false" />
+    <string name="del_space_symbols">.,!?;:</string>
+    <string name="kbd_background_pict">/storage/emulated/0/hidden/jbak.jpeg</string>
+    <string name="kp_path_edittext">/storage/emulated/0/jbak2Keyboard/keyboards/edittext_me.xml</string>
+    <boolean name="up_empty" value="true" />
+    <int name="clipboard_sync_size" value="10" />
+    <string name="minikbd_btn_text_size">0</string>
+    <int name="kbd_act_back_col" value="0" />
+    <string name="g_up">0</string>
+    <string name="space_symbols">.,!?</string>
+    <string name="fe_last_dir">/storage/emulated/0/hidden</string>
+    <string name="g_velocity">150</string>
+    <boolean name="enter_state" value="true" />
+    <boolean name="copy_toast" value="true" />
+    <string name="use_volume_keys">0</string>
+    <string name="kl_path_ru">/storage/emulated/0/jbak2Keyboard/keyboards/ru_me_l.xml</string>
+    <boolean name="set_tpl_path" value="true" />
+    <string name="system_lang">ru</string>
+    <boolean name="show_size_record_clipboard" value="true" />
+    <int name="int_long_press" value="130" />
+    <boolean name="set_arrow_key" value="true" />
+    <boolean name="ac_student_dict" value="false" />
+    <string name="vibro_short">0</string>
+    <boolean name="clipboard_sync_msg_show" value="true" />
+    <int name="clipboard_sync_dur" value="1440" />
+    <string name="ac_place">0</string>
+    <string name="lang_desckbd">ru</string>
+    <string name="g_right">0</string>
+    <boolean name="space_sentence" value="false" />
+    <boolean name="pref_ac_sub_panel" value="false" />
+    <string name="sound_volume">5</string>
+    <boolean name="vl" value="false" />
+    <float name="kh_p" value="0.053125" />
+    <string name="empty_dict"></string>
+    <string name="kl_path_edittext">/storage/emulated/0/jbak2Keyboard/keyboards/edittext_me.xml</string>
+    <boolean name="clipboard_sync" value="false" />
+    <boolean name="up_after_symbols" value="true" />
+    <boolean name="ac_abbreviated_dict" value="false" />
+</map>
