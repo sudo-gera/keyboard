@@ -260,8 +260,12 @@
    android:codes="32"
    android:isRepeatable="true"
    android:longCode="0"
-   android:keyHeight="11%p"
-   android:keyWidth="20%p"
+  />
+  <Key 
+   android:keyLabel="︾"
+   android:codes="-3"
+   android:longCode="0"
+   android:isRepeatable="true"
   />
   <Key 
    android:keyLabel="⇦"
@@ -305,18 +309,35 @@
    android:longCode="0"
   />
   <Key 
+   android:keyLabel="⎵"
+   android:codes="32"
+   android:isRepeatable="true"
+   android:longCode="0"
+  />
+  <Key 
+   android:keyLabel="︾"
+   android:codes="-3"
+   android:longCode="0"
+   android:isRepeatable="true"
+  />
+  <Key 
+   android:keyLabel="⎵"
+   android:codes="32"
+   android:isRepeatable="true"
+   android:longCode="0"
+  />
+  <Key 
+   android:keyLabel="︾"
+   android:codes="-3"
+   android:longCode="0"
+   android:isRepeatable="true"
+  />
+  <Key 
    android:keyWidth="10%p"
    android:keyLabel="."
    android:codes="46"
    android:longCode="0"
-   android:horizontalGap="40%p"
   />
-  <!--Key 
-   android:keyWidth="10%p"
-   android:keyLabel="💙"
-   android:longCode="0"
-   android:horizontalGap="40%p"
-  /-->
   <Key 
    android:keyLabel=","
    android:keyWidth="10%p"

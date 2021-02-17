@@ -161,9 +161,10 @@
 <!--00000000000000000000000000000000000-->
  <Row>
   <Key 
-   android:keyLabel="tab"
-   android:codes="9"
+   android:keyLabel="︾"
+   android:codes="-3"
    android:longCode="0"
+   android:isRepeatable="true"
   />
   <Key 
    android:keyLabel="%\nz"
@@ -248,8 +249,6 @@
    android:codes="32"
    android:isRepeatable="true"
    android:longCode="0"
-   android:keyHeight="11%p"
-   android:keyWidth="20%p"
   />
   <Key 
    android:keyLabel="⇦"
@@ -290,7 +289,6 @@
    android:isRepeatable="true"
   />
   <Key 
-   android:horizontalGap="40%p"
    android:keyLabel="."
    android:codes="46"
    android:longCode="0"
