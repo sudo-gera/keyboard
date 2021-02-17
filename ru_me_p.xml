@@ -289,7 +289,7 @@
 <!--00000000000000000000000000000-->
  <Row>
   <Key 
-   android:keyLabel="lan"
+   android:keyLabel="🌐"
    android:keyWidth="10%p"
    android:codes="-20"
    android:longCode="10"
