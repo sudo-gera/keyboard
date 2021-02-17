@@ -230,7 +230,7 @@
  <Row>
   <Key
    android:isSticky="true"
-   android:keyLabel="✎\n⇪"
+   android:keyLabel="⇪"
    android:codes="-1"
    android:keyWidth="10%p"
    android:longCode="-611"
