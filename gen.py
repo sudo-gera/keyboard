@@ -49,7 +49,7 @@ def create(b,e):
 			for w in range(q,q+(e-b)//8,(e-b)//64):
 				if create(w,w+(e-b)//64):
 					ext.write('<Key\n')
-					ext.write(' android:keyLabel="'+str(w,1)+'"\n')
+					ext.write(' android:keyLabel="'+str(w)+'"\n')
 #					ext.write(' android:keyLabel="'+less(w,1)+less(w+(e-b)//64)+'"\n')
 					ext.write(' android:smallLabel="true"\n')
 					ext.write(' android:keyboard="auto/hide_auto_'+str(w)+'_'+str(w+(e-b)//64)+'.xml"\n')
