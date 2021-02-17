@@ -309,22 +309,11 @@
    android:longCode="0"
   />
   <Key 
-   android:keyLabel="⎵"
-   android:codes="32"
-   android:isRepeatable="true"
-   android:longCode="0"
-  />
-  <Key 
+   android:horizontalGap="20%p"
    android:keyLabel="︾"
    android:codes="-3"
    android:longCode="0"
    android:isRepeatable="true"
-  />
-  <Key 
-   android:keyLabel="⎵"
-   android:codes="32"
-   android:isRepeatable="true"
-   android:longCode="0"
   />
   <Key 
    android:keyLabel="︾"

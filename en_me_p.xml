@@ -295,6 +295,7 @@
    android:isRepeatable="true"
   />
   <Key 
+   android:horizontalGap="20%p"
    android:keyLabel="︾"
    android:codes="-3"
    android:longCode="0"
