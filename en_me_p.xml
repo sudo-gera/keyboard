@@ -278,15 +278,15 @@
 <!--0000000000000000000000000000000000000-->
  <Row>
   <Key 
+   android:keyLabel="lan"
+   android:codes="-20"
+   android:longCode="10"
+  />
+  <Key 
    android:keyLabel="︾"
    android:codes="-3"
    android:longCode="0"
    android:isRepeatable="true"
-  />
-  <Key 
-   android:keyLabel="lan"
-   android:codes="-20"
-   android:longCode="10"
   />
   <Key 
    android:keyLabel="︾"

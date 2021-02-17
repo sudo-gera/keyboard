@@ -291,16 +291,16 @@
 <!--00000000000000000000000000000-->
  <Row>
   <Key 
-   android:keyLabel="\nд"
-   android:codes="1076"
-   android:keyWidth="10%p"
-   android:longCode="0"
-  />
-  <Key 
    android:keyLabel="lan"
    android:keyWidth="10%p"
    android:codes="-20"
    android:longCode="10"
+  />
+  <Key 
+   android:keyLabel="\nд"
+   android:codes="1076"
+   android:keyWidth="10%p"
+   android:longCode="0"
   />
   <Key 
    android:keyLabel="\nж"
