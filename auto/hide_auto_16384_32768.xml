@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:keyWidth="12.5%p">
+<Row android:keyHeight="125%p">
+<Key
+ android:keyLabel="16384"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_16384_16640.xml"
+/>
+<Key
+ android:keyLabel="16640"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_16640_16896.xml"
+/>
+<Key
+ android:keyLabel="16896"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_16896_17152.xml"
+/>
+<Key
+ android:keyLabel="17152"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_17152_17408.xml"
+/>
+<Key
+ android:keyLabel="17408"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_17408_17664.xml"
+/>
+<Key
+ android:keyLabel="17664"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_17664_17920.xml"
+/>
+<Key
+ android:keyLabel="17920"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_17920_18176.xml"
+/>
+<Key
+ android:keyLabel="18176"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_18176_18432.xml"
+/>
+</Row>
+<!--000000000000000000000000000000000000--><Row android:keyHeight="125%p">
+<Key
+ android:keyLabel="18432"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_18432_18688.xml"
+/>
+<Key
+ android:keyLabel="18688"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_18688_18944.xml"
+/>
+<Key
+ android:keyLabel="18944"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_18944_19200.xml"
+/>
+<Key
+ android:keyLabel="19200"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_19200_19456.xml"
+/>
+<Key
+ android:keyLabel="19456"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_19456_19712.xml"
+/>
+<Key
+ android:keyLabel="19712"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_19712_19968.xml"
+/>
+<Key
+ android:keyLabel="19968"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_19968_20224.xml"
+/>
+<Key
+ android:keyLabel="20224"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_20224_20480.xml"
+/>
+</Row>
+<!--000000000000000000000000000000000000--><Row android:keyHeight="125%p">
+<Key
+ android:keyLabel="20480"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_20480_20736.xml"
+/>
+<Key
+ android:keyLabel="20736"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_20736_20992.xml"
+/>
+<Key
+ android:keyLabel="20992"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_20992_21248.xml"
+/>
+<Key
+ android:keyLabel="21248"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_21248_21504.xml"
+/>
+<Key
+ android:keyLabel="21504"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_21504_21760.xml"
+/>
+<Key
+ android:keyLabel="21760"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_21760_22016.xml"
+/>
+<Key
+ android:keyLabel="22016"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_22016_22272.xml"
+/>
+<Key
+ android:keyLabel="22272"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_22272_22528.xml"
+/>
+</Row>
+<!--000000000000000000000000000000000000--><Row android:keyHeight="125%p">
+<Key
+ android:keyLabel="22528"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_22528_22784.xml"
+/>
+<Key
+ android:keyLabel="22784"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_22784_23040.xml"
+/>
+<Key
+ android:keyLabel="23040"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_23040_23296.xml"
+/>
+<Key
+ android:keyLabel="23296"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_23296_23552.xml"
+/>
+<Key
+ android:keyLabel="23552"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_23552_23808.xml"
+/>
+<Key
+ android:keyLabel="23808"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_23808_24064.xml"
+/>
+<Key
+ android:keyLabel="24064"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_24064_24320.xml"
+/>
+<Key
+ android:keyLabel="24320"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_24320_24576.xml"
+/>
+</Row>
+<!--000000000000000000000000000000000000--><Row android:keyHeight="125%p">
+<Key
+ android:keyLabel="24576"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_24576_24832.xml"
+/>
+<Key
+ android:keyLabel="24832"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_24832_25088.xml"
+/>
+<Key
+ android:keyLabel="25088"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_25088_25344.xml"
+/>
+<Key
+ android:keyLabel="25344"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_25344_25600.xml"
+/>
+<Key
+ android:keyLabel="25600"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_25600_25856.xml"
+/>
+<Key
+ android:keyLabel="25856"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_25856_26112.xml"
+/>
+<Key
+ android:keyLabel="26112"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_26112_26368.xml"
+/>
+<Key
+ android:keyLabel="26368"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_26368_26624.xml"
+/>
+</Row>
+<!--000000000000000000000000000000000000--><Row android:keyHeight="125%p">
+<Key
+ android:keyLabel="26624"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_26624_26880.xml"
+/>
+<Key
+ android:keyLabel="26880"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_26880_27136.xml"
+/>
+<Key
+ android:keyLabel="27136"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_27136_27392.xml"
+/>
+<Key
+ android:keyLabel="27392"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_27392_27648.xml"
+/>
+<Key
+ android:keyLabel="27648"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_27648_27904.xml"
+/>
+<Key
+ android:keyLabel="27904"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_27904_28160.xml"
+/>
+<Key
+ android:keyLabel="28160"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_28160_28416.xml"
+/>
+<Key
+ android:keyLabel="28416"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_28416_28672.xml"
+/>
+</Row>
+<!--000000000000000000000000000000000000--><Row android:keyHeight="125%p">
+<Key
+ android:keyLabel="28672"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_28672_28928.xml"
+/>
+<Key
+ android:keyLabel="28928"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_28928_29184.xml"
+/>
+<Key
+ android:keyLabel="29184"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_29184_29440.xml"
+/>
+<Key
+ android:keyLabel="29440"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_29440_29696.xml"
+/>
+<Key
+ android:keyLabel="29696"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_29696_29952.xml"
+/>
+<Key
+ android:keyLabel="29952"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_29952_30208.xml"
+/>
+<Key
+ android:keyLabel="30208"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_30208_30464.xml"
+/>
+<Key
+ android:keyLabel="30464"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_30464_30720.xml"
+/>
+</Row>
+<!--000000000000000000000000000000000000--><Row android:keyHeight="125%p">
+<Key
+ android:keyLabel="30720"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_30720_30976.xml"
+/>
+<Key
+ android:keyLabel="30976"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_30976_31232.xml"
+/>
+<Key
+ android:keyLabel="31232"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_31232_31488.xml"
+/>
+<Key
+ android:keyLabel="31488"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_31488_31744.xml"
+/>
+<Key
+ android:keyLabel="31744"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_31744_32000.xml"
+/>
+<Key
+ android:keyLabel="32000"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_32000_32256.xml"
+/>
+<Key
+ android:keyLabel="32256"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_32256_32512.xml"
+/>
+<Key
+ android:keyLabel="32512"
+ android:smallLabel="true"
+ android:keyboard="auto/hide_auto_32512_32768.xml"
+/>
+</Row>
+<!--000000000000000000000000000000000000--> <Row>
+		<Key
+			android:keyLabel="⟪⟪⟪⟪"
+			android:keyboard="auto/hide_auto_0_16384.xml"
+			android:longCode="0"
+			android:isRepeatable="true"
+			android:keyWidth="10.0%p"
+		/>
+		<Key
+			android:keyLabel="⇦"
+			android:codes="21"
+			android:isRepeatable="true"
+			android:keyWidth="10.0%p"
+		/>
+		<Key
+			android:keyLabel="⇨"
+			android:codes="22"
+			android:isRepeatable="true"
+			android:keyWidth="10.0%p"
+		/>
+		<Key
+			android:keyLabel="cop"
+			android:codes="-320"
+			android:isRepeatable="true"
+			android:keyWidth="10.0%p"
+		/>
+		<Key
+			android:keyLabel="pas"
+			android:codes="-504"
+			android:isRepeatable="true"
+			android:keyWidth="10.0%p"
+		/>
+		<Key
+			android:keyLabel="⌫"
+			android:codes="-5"
+			android:isRepeatable="true"
+			android:keyWidth="10.0%p"
+		/>
+		<Key
+			android:keyLabel="sel"
+			android:codes="-310"
+			android:isRepeatable="true"
+			android:isSticky="true"
+			android:keyWidth="10.0%p"
+		/>
+		<Key
+			android:keyLabel="☰"
+			android:isRepeatable="true"
+			android:keyboard="auto/hide_auto_16384_20480.xml"
+			android:longCode="0"
+			android:keyWidth="10.0%p"
+		/>
+		<Key
+			android:keyLabel="⟫⟫⟫⟫"
+			android:isRepeatable="true"
+			android:keyboard="auto/hide_auto_32768_49152.xml"
+			android:longCode="0"
+			android:keyWidth="10.0%p"
+		/>
+		</Row>
+<!--000000000000000000000000000000000000-->
+		<Row>
+		<Key
+			android:keyLabel="16384 32768"
+			android:isRepeatable="true"
+			android:goQwerty="true"
+			android:codes="-2"
+			android:longCode="0"
+			android:keyWidth="100.0%p"
+		/>
+		</Row>
+<!--000000000000000000000000000000000000--></Keyboard>
