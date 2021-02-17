@@ -34,7 +34,7 @@ def create(b,e):
 			ext.write('	<Row android:keyHeight="62.5%p">\n')
 			for w in range(q,q+16):
 				ext.write('		<Key\n')
-						ext.write('			android:keyLabel="'+escs(w)+'"\n')
+				ext.write('			android:keyLabel="'+escs(w)+'"\n')
 				ext.write('			android:smallLabel="true"\n')
 				ext.write('			android:longCode="-'+str(w)+'"\n')
 				ext.write('		/>\n')
