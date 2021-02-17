@@ -225,10 +225,10 @@
   />
   <Key
    android:isSticky="true"
-   android:keyLabel="shift"
+   android:keyLabel="⇪"
    android:codes="-1"
-   android:longCode="0"
-   android:keyWidth="12%p"
+   android:keyWidth="10%p"
+   android:longCode="-611"
   />
   <Key 
    android:keyLabel="︾"
