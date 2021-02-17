@@ -275,7 +275,7 @@
 <!--0000000000000000000000000000000000000-->
  <Row>
   <Key 
-   android:keyLabel="lan"
+   android:keyLabel="🌐"
    android:codes="-20"
    android:longCode="10"
   />
