@@ -315,19 +315,17 @@
   />
   <Key 
    android:keyLabel="⇦"
-   android:keyWidth="10%p"
    android:codes="-5021"
    android:longCode="0"
    android:isRepeatable="true"
   />
   <Key 
-   android:keyLabel="︾"
-   android:codes="-3"
-   android:longCode="0"
+   android:keyLabel="⇩"
+   android:codes="-5020"
    android:isRepeatable="true"
+   android:longCode="0"
   />
   <Key 
-   android:keyWidth="10%p"
    android:keyLabel="⇨"
    android:codes="-5022"
    android:isRepeatable="true"
