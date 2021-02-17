@@ -104,7 +104,7 @@
    android:isRepeatable="true"
   />
   <Key 
-   android:keyLabel="▐▙▄▄▄▟▋"
+   android:keyLabel="⎵"
    android:codes="32"
    android:longCode="0"
    android:isRepeatable="true"
@@ -122,10 +122,9 @@
    android:isRepeatable="true"
   />
   <Key 
-   android:keyLabel="︾"
-   android:codes="-3"
-   android:longCode="0"
-   android:isRepeatable="true"
+   android:keyLabel="utf"
+   android:keyboard="auto/hide_auto_0_1048576.xml"
+   android:longCode="1"
   />
   <Key 
    android:keyLabel="str⇨"
@@ -239,10 +238,9 @@
    android:isRepeatable="true"
   />
   <Key 
-   android:keyLabel=""
-   android:codes="0"
-   android:longCode="0"
-   android:isRepeatable="true"
+   android:keyLabel="term"
+   android:keyboard="hide_me_term.xml"
+   android:longCode="1"
   />
   <Key 
    android:keyLabel=""

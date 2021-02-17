@@ -165,11 +165,10 @@
    android:longCode="47"
    android:keyWidth="10%p"
   />
-  <Key 
-   android:keyLabel="\nэ"
-   android:codes="1101"
+  <Key
+   android:keyLabel="✎"
+   android:codes="-611"
    android:longCode="0"
-   android:keyWidth="10%p"
   />
  </Row>
 <!--00000000000000000000000000000000000-->
@@ -220,10 +219,11 @@
    android:keyWidth="10%p"
    android:longCode="0"
   />
-  <Key
-   android:keyLabel="✎"
-   android:codes="-611"
+  <Key 
+   android:keyLabel="\nэ"
+   android:codes="1101"
    android:longCode="0"
+   android:keyWidth="10%p"
   />
  </Row>
 <!--00000000000000000000000000000-->
@@ -264,32 +264,33 @@
    android:keyWidth="20%p"
   />
   <Key 
-   android:keyLabel="\nд"
-   android:codes="1076"
-   android:keyWidth="10%p"
-   android:longCode="0"
-  />
-  <Key 
-   android:keyLabel="\nж"
-   android:codes="1078"
-   android:keyWidth="10%p"
-   android:longCode="0"
-  />
-  <Key 
-   android:keyLabel="utf"
-   android:keyboard="auto/hide_auto_0_1048576.xml"
-   android:keyWidth="10%p"
-
-  />
- </Row>
-<!--00000000000000000000000000000-->
- <Row>
-  <Key 
    android:keyLabel="⇦"
    android:keyWidth="10%p"
    android:codes="-5021"
    android:longCode="0"
    android:isRepeatable="true"
+  />
+  <Key 
+   android:keyLabel="︾"
+   android:codes="-3"
+   android:longCode="0"
+   android:isRepeatable="true"
+  />
+  <Key 
+   android:keyWidth="10%p"
+   android:keyLabel="⇨"
+   android:codes="-5022"
+   android:isRepeatable="true"
+   android:longCode="0"
+  />
+ </Row>
+<!--00000000000000000000000000000-->
+ <Row>
+  <Key 
+   android:keyLabel="\nд"
+   android:codes="1076"
+   android:keyWidth="10%p"
+   android:longCode="0"
   />
   <Key 
    android:keyLabel="lan"
@@ -298,10 +299,9 @@
    android:longCode="10"
   />
   <Key 
+   android:keyLabel="\nж"
+   android:codes="1078"
    android:keyWidth="10%p"
-   android:keyLabel="⇨"
-   android:codes="-5022"
-   android:isRepeatable="true"
    android:longCode="0"
   />
   <Key 

@@ -207,10 +207,10 @@
    android:longCode="0"
   />
   <Key 
-   android:keyLabel="alt"
-   android:isSticky="true"
-   android:codes="-311"
+   android:keyLabel="︾"
+   android:codes="-3"
    android:longCode="0"
+   android:isRepeatable="true"
   />
  </Row>
 <!--00000000000000000000000000000-->
@@ -230,11 +230,10 @@
    android:keyWidth="12%p"
   />
   <Key 
-   android:keyLabel="alt"
-   android:keyWidth="9%p"
-   android:isSticky="true"
-   android:codes="-308"
+   android:keyLabel="︾"
+   android:codes="-3"
    android:longCode="0"
+   android:isRepeatable="true"
   />
   <Key 
    android:keyLabel="⌫"
@@ -274,10 +273,10 @@
 <!--0000000000000000000000000000000000000-->
  <Row>
   <Key 
-   android:keyLabel="fn"
-   android:codes="0"
+   android:keyLabel="︾"
+   android:codes="-3"
    android:longCode="0"
-   android:keyboard="en_me_fn.xml"
+   android:isRepeatable="true"
   />
   <Key 
    android:keyLabel="lan"
@@ -285,9 +284,10 @@
    android:longCode="10"
   />
   <Key 
-   android:keyLabel="utf"
-   android:keyboard="auto/hide_auto_0_1048576.xml"
-   android:longCode="1"
+   android:keyLabel="︾"
+   android:codes="-3"
+   android:longCode="0"
+   android:isRepeatable="true"
   />
   <Key 
    android:horizontalGap="40%p"

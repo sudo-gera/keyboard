@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Keyboard xmlns:android="http://schemas.android.com/apk/res/android" android:keyWidth="10.0%p" >
- <Row android:keyHeight="200%p">
+ <Row>
   <Key 
    android:keyLabel="!\n1"
    android:codes="49"
@@ -53,7 +53,7 @@
   />
  </Row>
 <!--000000000000000000000000000000000000000-->
- <Row android:keyHeight="200%p">
+ <Row>
   <Key 
    android:keyLabel="=\nq"
    android:codes="113"
@@ -106,7 +106,7 @@
   />
  </Row>
 <!--0000000000000000000000000000000000-->
- <Row android:keyHeight="200%p">
+ <Row>
   <Key 
    android:keyLabel="*\na"
    android:codes="97"
@@ -159,7 +159,7 @@
   />
  </Row>
 <!--00000000000000000000000000000000000-->
- <Row android:keyHeight="200%p">
+ <Row>
   <Key 
    android:keyLabel="tab"
    android:codes="9"
@@ -214,7 +214,7 @@
   />
  </Row>
 <!--00000000000000000000000000000-->
- <Row android:keyHeight="200%p">
+ <Row>
   <Key 
    android:keyLabel="ctrl"
    android:codes="-309"
@@ -272,7 +272,7 @@
   />
  </Row>
 <!--0000000000000000000000000000000000000-->
- <Row android:keyHeight="200%p">
+ <Row>
   <Key 
    android:keyLabel="fn"
    android:codes="0"
