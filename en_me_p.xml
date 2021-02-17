@@ -165,7 +165,6 @@
    android:codes="-309"
    android:isSticky="true"
    android:longCode="0"
-   android:keyWidth="9%p"
   />
   <Key 
    android:keyLabel="%\nz"
