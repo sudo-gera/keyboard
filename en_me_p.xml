@@ -251,6 +251,12 @@
    android:longCode="0"
   />
   <Key 
+   android:keyLabel="︾"
+   android:codes="-3"
+   android:longCode="0"
+   android:isRepeatable="true"
+  />
+  <Key 
    android:keyLabel="⇦"
    android:codes="-5021"
    android:longCode="0"
@@ -281,6 +287,18 @@
    android:keyLabel="lan"
    android:codes="-20"
    android:longCode="10"
+  />
+  <Key 
+   android:keyLabel="︾"
+   android:codes="-3"
+   android:longCode="0"
+   android:isRepeatable="true"
+  />
+  <Key 
+   android:keyLabel="︾"
+   android:codes="-3"
+   android:longCode="0"
+   android:isRepeatable="true"
   />
   <Key 
    android:keyLabel="︾"
