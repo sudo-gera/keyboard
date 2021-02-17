@@ -5,7 +5,7 @@ n='01234567890'
 def escs(q):
 	try:
 		q=chr(q)
-		open('tmp','w').write('"'+q+'"')
+		('"'+q+'"').encode()
 		if q in x:
 			q=x[q]
 		return q
