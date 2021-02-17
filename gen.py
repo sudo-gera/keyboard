@@ -39,6 +39,9 @@ def create(b,e):
 				ext.write('			android:longCode="-'+str(w)+'"\n')
 				ext.write('		/>\n')
 			ext.write('	</Row>\n<!--000000000000000000000000000000000000-->')
+		if e-b==256:
+			for q in range(b,e,(e-b)//4):
+				create(q,q+(e-b)//4)
 	else:
 		ext.write('<?xml version="1.0" encoding="utf-8"?>\n<Keyboard\nxmlns:android="http://schemas.android.com/apk/res/android"\nandroid:keyWidth="12.5%p">\n')
 		for q in range(b,e,(e-b)//8):
@@ -99,7 +102,7 @@ def create(b,e):
 		<Key
 			android:keyLabel="☰"
 			android:isRepeatable="true"
-			android:keyboard="auto/hide_auto_'''+str(e)+'_'+str(e+e-b)+'''.xml"
+			android:keyboard="auto/hide_auto_'''+str(b)+'_'+str(b+(e-b)//4)+'''.xml"
 			android:longCode="0"
 			android:keyWidth="10.0%p"
 		/>
