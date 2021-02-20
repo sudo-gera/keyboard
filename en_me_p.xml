@@ -280,7 +280,6 @@
 		/>
 	</Row>
 <!--0000000000000000000000000000000000000-->
-<<<<<<< HEAD
  <Row>
   <Key 
    android:keyLabel="🌐"
@@ -330,10 +329,6 @@
    android:longCode="0"
   />
  </Row>
- <Row android:keyHeight="0%p">
-  </Row>
- </Keyboard>
-=======
 	<Row>
 		<Key 
 			android:keyLabel="🌐"
@@ -378,7 +373,4 @@
 			android:longCode="0"
 		/>
 	</Row>
-	<Row android:keyHeight="0%p">
-		</Row>
 	</Keyboard>
->>>>>>> 38cc869ca903366b4ad8e34221c537b7936d0728
