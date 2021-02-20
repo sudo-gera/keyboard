@@ -26,7 +26,7 @@ def create(b,e):
 		chr(b)
 	except:
 		return
-	if e-b>256:
+	if b>>10 and b>>10<<10==b:
 		te=int(b*640/ms)
 		print('█'*(te//8)+chr(9615-te%8)+'-'*(80-te//8),end='\r')
 	ext=open('hide_auto_'+str(b)+'_'+str(e)+'.xml','w')
@@ -134,3 +134,4 @@ def create(b,e):
 	ext.close()
 	return 1
 create(0,2**26)
+print(' '*81,end='\r')
