@@ -226,7 +226,7 @@
 <!--0000000000000000000000000000000000000000-->
  <Row>
   <Key 
-   android:keyLabel="⃣"
+   android:keyLabel="⌨"
    android:codes="-2"
    android:longCode="0"
    android:isRepeatable="true"
