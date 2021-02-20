@@ -280,55 +280,6 @@
 		/>
 	</Row>
 <!--0000000000000000000000000000000000000-->
- <Row>
-  <Key 
-   android:keyLabel="🌐"
-   android:codes="-20"
-  />
-  <Key 
-   android:keyLabel="︾"
-   android:codes="-3"
-   android:longCode="0"
-   android:isRepeatable="true"
-  />
-  <Key 
-   android:keyLabel="︾"
-   android:codes="-3"
-   android:longCode="0"
-   android:isRepeatable="true"
-  />
-  <Key 
-   android:horizontalGap="20%p"
-   android:keyLabel="⎵"
-   android:codes="32"
-   android:isRepeatable="true"
-   android:longCode="0"
-  />
-  <Key 
-   android:keyLabel="⇦"
-   android:codes="-5021"
-   android:longCode="0"
-   android:isRepeatable="true"
-  />
-  <Key 
-   android:keyLabel="⇩"
-   android:codes="-5020"
-   android:isRepeatable="true"
-   android:longCode="0"
-  />
-  <Key 
-   android:keyLabel="⇨"
-   android:codes="-5022"
-   android:isRepeatable="true"
-   android:longCode="0"
-  />
-  <Key 
-   android:keyLabel="⏎"
-   android:codes="10"
-   android:isRepeatable="true"
-   android:longCode="0"
-  />
- </Row>
 	<Row>
 		<Key 
 			android:keyLabel="🌐"
