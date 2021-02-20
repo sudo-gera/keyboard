@@ -256,7 +256,6 @@
 			android:isRepeatable="true"
 		/>
 		<Key 
-			android:horizontalGap="15%p"
 			android:keyLabel="⎵"
 			android:codes="32"
 			android:isRepeatable="true"
