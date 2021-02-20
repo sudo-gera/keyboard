@@ -2,15 +2,17 @@ x={'"':'&quot;','&':'&amp;',"'":'&apos;','<':'&lt;','>':'&gt;'}
 u='º¹²³⁴⁵⁶⁷⁸⁹'
 l='₀₁₂₃₄₅₆₇₈₉'
 n='01234567890'
+ms=0
+try:
+	while chr(ms):
+		ms+=1
+except:
+	pass
 def escs(q):
-	try:
-		q=chr(q)
-		('"'+q+'"').encode()
-		if q in x:
-			q=x[q]
-		return q
-	except:
-		return str(q)
+	q=chr(q)
+	if q in x:
+		q=x[q]
+	return q
 def less(q,a=0):
 	q=str(q)
 	if a:
@@ -19,15 +21,14 @@ def less(q,a=0):
 		y=l
 	return ''.join([y[n.index(w)] for w in q])
 def create(b,e):
-#	if e-b>256:
-#		te=int(b*80/1300000)
-#		print('█'*te+'-'*(80-te),end='\r')
-#	if b>=2**16*17:
-#		return 0
+	global ms
 	try:
 		chr(b)
 	except:
 		return
+	if e-b>256:
+		te=int(b*640/ms)
+		print('█'*(te//8)+chr(9615-te%8)+'-'*(80-te//8),end='\r')
 	ext=open('hide_auto_'+str(b)+'_'+str(e)+'.xml','w')
 	if e-b<=256:
 		ext.write('<?xml version="1.0" encoding="utf-8"?>\n<Keyboard\nxmlns:android="http://schemas.android.com/apk/res/android"\nandroid:keyWidth="6.25%p">\n')
@@ -35,7 +36,10 @@ def create(b,e):
 			ext.write('	<Row android:keyHeight="62.5%p">\n')
 			for w in range(q,q+16):
 				ext.write('		<Key\n')
-				ext.write('			android:keyLabel="'+escs(w)+'"\n')
+				try:
+					ext.write('			android:keyLabel="'+escs(w)+'"\n')
+				except:
+					ext.write('			android:keyLabel="'+str(w)+'"\n')
 				ext.write('			android:smallLabel="true"\n')
 				ext.write('			android:longCode="-'+str(w)+'"\n')
 				ext.write('		/>\n')
