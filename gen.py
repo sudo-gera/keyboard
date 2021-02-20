@@ -132,8 +132,7 @@ def create(b,e):
 		<Key
 			android:keyLabel="'''+str(b)+' '+str(e)+'''"
 			android:isRepeatable="true"
-			android:goQwerty="true"
-			android:codes="-2"
+			android:codes="0"
 			android:longCode="0"
 			android:keyWidth="100.0%p"
 		/>
