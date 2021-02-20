@@ -292,9 +292,7 @@
    android:keyLabel="🌐"
    android:keyWidth="10%p"
    android:codes="-20"
-   android:longCode="10"
-  />
-  <Key 
+  /> <Key
    android:keyLabel="\nд"
    android:codes="1076"
    android:keyWidth="10%p"

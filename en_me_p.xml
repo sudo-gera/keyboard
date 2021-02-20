@@ -277,7 +277,6 @@
   <Key 
    android:keyLabel="🌐"
    android:codes="-20"
-   android:longCode="10"
   />
   <Key 
    android:keyLabel="︾"
