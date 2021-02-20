@@ -256,6 +256,8 @@
 			android:isRepeatable="true"
 		/>
 		<Key 
+			android:keyHeight="11%p"
+			android:keyWidth="15%p"
 			android:keyLabel="⎵"
 			android:codes="32"
 			android:isRepeatable="true"
