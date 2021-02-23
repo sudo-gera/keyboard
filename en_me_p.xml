@@ -319,4 +319,6 @@
 			android:longCode="0"
 		/>
 	</Row>
-	</Keyboard>
+	<Row android:keyHeight="50%p">
+	</Row>
+</Keyboard>

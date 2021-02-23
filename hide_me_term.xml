@@ -307,6 +307,6 @@
    android:longCode="0"
   />
  </Row>
- <Row android:keyHeight="0%p">
+ <Row android:keyHeight="50%p">
   </Row>
  </Keyboard>
