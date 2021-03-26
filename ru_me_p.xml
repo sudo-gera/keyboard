@@ -101,28 +101,28 @@
 <!--00000000000000000000000000000000000-->
 	<Row>
 		<Key 
-			android:keyLabel="я"
+			android:keyLabel="%\nя"
 		/>
 		<Key 
-			android:keyLabel="%\nч"
+			android:keyLabel="|\nч"
 		/>
 		<Key 
-			android:keyLabel="|\nс"
+			android:keyLabel="{\nс"
 		/>
 		<Key 
-			android:keyLabel="{\nм"
+			android:keyLabel="}\nм"
 		/>
 		<Key 
-			android:keyLabel="}\nи"
+			android:keyLabel="^\nи"
 		/>
 		<Key 
-			android:keyLabel="^\nт"
+			android:keyLabel="×\nт"
 		/>
 		<Key 
-			android:keyLabel="×\nь"
+			android:keyLabel="?\nь"
 		/>
 		<Key 
-			android:keyLabel="?\nб"
+			android:keyLabel="\nб"
 		/>
 		<Key 
 			android:keyLabel="\nю"
