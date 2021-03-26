@@ -282,9 +282,10 @@
 			android:longCode="0"
 		/>
 		<Key 
+			android:keyLabel="⏎"
+			android:codes="10"
 			android:keyWidth="10%p"
-			android:keyLabel="."
-			android:codes="46"
+			android:isRepeatable="true"
 			android:longCode="0"
 		/>
 	</Row>
@@ -309,10 +310,9 @@
 			android:longCode="0"
 		/>
 		<Key 
-			android:keyLabel="⏎"
-			android:codes="10"
 			android:keyWidth="10%p"
-			android:isRepeatable="true"
+			android:keyLabel="."
+			android:codes="46"
 			android:longCode="0"
 		/>
 		<Key 
