@@ -264,6 +264,12 @@
 			android:longCode="0"
 		/>
 		<Key 
+			android:keyLabel=","
+			android:keyWidth="10%p"
+			android:codes="44"
+			android:longCode="0"
+		/>
+		<Key 
 			android:keyLabel="︾"
 			android:codes="-3"
 			android:longCode="0"
@@ -279,12 +285,6 @@
 			android:keyWidth="10%p"
 			android:keyLabel="."
 			android:codes="46"
-			android:longCode="0"
-		/>
-		<Key 
-			android:keyLabel=","
-			android:keyWidth="10%p"
-			android:codes="44"
 			android:longCode="0"
 		/>
 	</Row>
