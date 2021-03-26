@@ -17,7 +17,7 @@
 			android:keyLabel="%\n5"
 		/>
 		<Key 
-			android:keyLabel="~\n6"
+			android:keyLabel="^\n6"
 		/>
 		<Key 
 			android:keyLabel="&amp;\n7"
@@ -113,7 +113,7 @@
 			android:keyLabel="}\nм"
 		/>
 		<Key 
-			android:keyLabel="^\nи"
+			android:keyLabel="~\nи"
 		/>
 		<Key 
 			android:keyLabel="×\nт"
