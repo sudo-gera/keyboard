@@ -236,6 +236,11 @@
 			android:isRepeatable="true"
 		/>
 		<Key 
+			android:keyLabel=","
+			android:codes="44"
+			android:longCode="0"
+		/>
+		<Key 
 			android:keyLabel="⌫"
 			android:codes="-5"
 			android:longCode="0"
@@ -264,13 +269,9 @@
 			android:longCode="0"
 		/>
 		<Key 
-			android:keyLabel="."
-			android:codes="46"
-			android:longCode="0"
-		/>
-		<Key 
-			android:keyLabel=","
-			android:codes="44"
+			android:keyLabel="⏎"
+			android:codes="10"
+			android:isRepeatable="true"
 			android:longCode="0"
 		/>
 	</Row>
@@ -294,6 +295,11 @@
 			android:isRepeatable="true"
 		/>
 		<Key 
+			android:keyLabel="."
+			android:codes="46"
+			android:longCode="0"
+		/>
+		<Key 
 			android:horizontalGap="30%p"
 			android:keyLabel="⇦"
 			android:codes="-5021"
@@ -309,12 +315,6 @@
 		<Key 
 			android:keyLabel="⇨"
 			android:codes="-5022"
-			android:isRepeatable="true"
-			android:longCode="0"
-		/>
-		<Key 
-			android:keyLabel="⏎"
-			android:codes="10"
 			android:isRepeatable="true"
 			android:longCode="0"
 		/>
