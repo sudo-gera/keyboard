@@ -3,227 +3,132 @@
 	<Row>
 		<Key 
 			android:keyLabel="!\n1"
-			android:codes="49"
-			android:longCode="33"
-			android:keyWidth="10%p"
 		/>
 		<Key 
 			android:keyLabel="@\n2"
-			android:codes="50"
-			android:keyWidth="10%p"
-			android:longCode="64"
 		/>
 		<Key 
 			android:keyLabel="#\n3"
-			android:keyWidth="10%p"
-			android:codes="51"
-			android:longCode="35"
 		/>
 		<Key 
 			android:keyLabel="$\n4"
-			android:keyWidth="10%p"
-			android:codes="52"
-			android:longCode="36"
 		/>
 		<Key 
 			android:keyLabel="%\n5"
-			android:keyWidth="10%p"
-			android:codes="53"
-			android:longCode="37"
 		/>
 		<Key 
 			android:keyLabel="~\n6"
-			android:codes="54"
-			android:keyWidth="10%p"
-			android:longCode="126"
 		/>
 		<Key 
 			android:keyLabel="&amp;\n7"
-			android:codes="55"
-			android:keyWidth="10%p"
-			android:longCode="38"
 		/>
 		<Key 
 			android:keyLabel="*\n8"
-			android:codes="56"
-			android:keyWidth="10%p"
-			android:longCode="42"
 		/>
 		<Key 
 			android:keyLabel="(\n9"
-			android:keyWidth="10%p"
-			android:codes="57"
-			android:longCode="40"
 		/>
 		<Key 
 			android:keyLabel=")\n0"
-			android:keyWidth="10%p"
-			android:codes="48"
-			android:longCode="41"
 		/>
 	</Row>
 <!--000000000000000000000000000000000000000-->
 	<Row>
 		<Key 
 			android:keyLabel="=\nй"
-			android:codes="1081"
-			android:longCode="61"
 		/>
 		<Key 
 			android:keyLabel=":\nц"
-			android:codes="1094"
-			android:longCode="58"
 		/>
 		<Key 
 			android:keyLabel="&quot;\nу"
-			android:codes="1091"
-			android:longCode="34"
 		/>
 		<Key 
 			android:keyLabel="+\nк"
-			android:codes="1082"
-			android:longCode="43"
 		/>
 		<Key 
 			android:keyLabel="\nе"
-			android:codes="1077"
-			android:longCode="0"
 		/>
 		<Key 
 			android:keyLabel="\nн"
-			android:codes="1085"
-			android:longCode="0"
 		/>
 		<Key 
 			android:keyLabel="'\nг"
-			android:codes="1075"
-			android:longCode="39"
 		/>
 		<Key 
 			android:keyLabel="_\nш"
-			android:codes="1096"
-			android:longCode="95"
 		/>
 		<Key 
 			android:keyLabel="&lt;\nщ"
-			android:codes="1097"
-			android:keyWidth="10%p"
-			android:longCode="60"
 		/>
 		<Key 
 			android:keyLabel="&gt;\nз"
-			android:codes="1079"
-			android:keyWidth="10%p"
-			android:longCode="62"
 		/>
 	</Row>
 <!--0000000000000000000000000000000000-->
 	<Row>
 		<Key 
 			android:keyLabel="*\nф"
-			android:codes="1092"
-			android:longCode="35"
 		/>
 		<Key 
 			android:keyLabel="-\nы"
-			android:codes="1099"
-			android:longCode="45"
 		/>
 		<Key 
 			android:keyLabel="`\nв"
-			android:codes="1074"
-			android:longCode="96"
 		/>
 		<Key 
 			android:keyLabel="\\\nа"
-			android:codes="1072"
-			android:longCode="92"
 		/>
 		<Key 
 			android:keyLabel="[\nп"
-			android:codes="1087"
-			android:longCode="91"
 		/>
 		<Key 
 			android:keyLabel="]\nр"
-			android:codes="1088"
-			android:longCode="93"
 		/>
 		<Key 
 			android:keyLabel="\\\nо"
-			android:longCode="92"
-			android:codes="1086"
 		/>
 		<Key 
 			android:keyLabel=";\nл"
-			android:codes="1083"
-			android:longCode="59"
 		/>
 		<Key 
 			android:keyLabel="/\nх"
-			android:codes="1093"
-			android:longCode="47"
-			android:keyWidth="10%p"
 		/>
 		<Key
 			android:keyLabel="✎"
-			android:codes="-611"
-			android:longCode="0"
 		/>
 	</Row>
 <!--00000000000000000000000000000000000-->
 	<Row>
 		<Key 
 			android:keyLabel="я"
-			android:codes="1103"
-			android:longCode="0"
 		/>
 		<Key 
 			android:keyLabel="%\nч"
-			android:codes="1095"
-			android:longCode="37"
 		/>
 		<Key 
 			android:keyLabel="|\nс"
-			android:codes="1089"
-			android:longCode="124"
 		/>
 		<Key 
 			android:keyLabel="{\nм"
-			android:codes="1084"
-			android:longCode="123"
 		/>
 		<Key 
 			android:keyLabel="}\nи"
-			android:codes="1080"
-			android:longCode="125"
 		/>
 		<Key 
 			android:keyLabel="^\nт"
-			android:codes="1090"
-			android:longCode="0"
 		/>
 		<Key 
 			android:keyLabel="×\nь"
-			android:codes="1100"
-			android:longCode="215"
 		/>
 		<Key 
 			android:keyLabel="?\nб"
-			android:codes="1073"
-			android:longCode="63"
 		/>
 		<Key 
 			android:keyLabel="\nю"
-			android:codes="1102"
-			android:keyWidth="10%p"
-			android:longCode="0"
 		/>
 		<Key 
 			android:keyLabel="\nэ"
-			android:codes="1101"
-			android:longCode="0"
-			android:keyWidth="10%p"
 		/>
 	</Row>
 <!--00000000000000000000000000000-->
@@ -237,15 +142,9 @@
 		/>
 		<Key 
 			android:keyLabel="ё"
-			android:codes="1105"
-			android:keyWidth="10%p"
-			android:longCode="0"
 		/>
 		<Key 
 			android:keyLabel="ъ"
-			android:codes="1098"
-			android:keyWidth="10%p"
-			android:longCode="0"
 		/>
 		<Key 
 			android:keyLabel=","
@@ -299,15 +198,9 @@
 		/>
 		<Key 
 			android:keyLabel="\nд"
-			android:codes="1076"
-			android:keyWidth="10%p"
-			android:longCode="0"
 		/>
 		<Key 
 			android:keyLabel="\nж"
-			android:codes="1078"
-			android:keyWidth="10%p"
-			android:longCode="0"
 		/>
 		<Key 
 			android:keyWidth="10%p"
