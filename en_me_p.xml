@@ -161,12 +161,6 @@
 <!--00000000000000000000000000000000000-->
 	<Row>
 		<Key 
-			android:keyLabel="ctrl"
-			android:codes="-309"
-			android:isSticky="true"
-			android:longCode="0"
-		/>
-		<Key 
 			android:keyLabel="%\nz"
 			android:codes="122"
 			android:longCode="37"
@@ -200,6 +194,12 @@
 			android:keyLabel="?\nm"
 			android:codes="109"
 			android:longCode="63"
+		/>
+		<Key 
+			android:keyLabel="︾"
+			android:codes="-3"
+			android:longCode="0"
+			android:isRepeatable="true"
 		/>
 		<Key 
 			android:keyLabel="︾"
@@ -283,10 +283,10 @@
 			android:longCode="10"
 		/>
 		<Key 
-			android:keyLabel="︾"
-			android:codes="-3"
+			android:keyLabel="ctrl"
+			android:codes="-309"
+			android:isSticky="true"
 			android:longCode="0"
-			android:isRepeatable="true"
 		/>
 		<Key 
 			android:keyLabel="︾"
