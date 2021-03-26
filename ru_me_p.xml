@@ -309,6 +309,13 @@
 			android:longCode="0"
 		/>
 		<Key 
+			android:keyLabel="⏎"
+			android:codes="10"
+			android:keyWidth="10%p"
+			android:isRepeatable="true"
+			android:longCode="0"
+		/>
+		<Key 
 			android:horizontalGap="30%p"
 			android:keyLabel="⇦"
 			android:codes="-5021"
@@ -324,13 +331,6 @@
 		<Key 
 			android:keyLabel="⇨"
 			android:codes="-5022"
-			android:isRepeatable="true"
-			android:longCode="0"
-		/>
-		<Key 
-			android:keyLabel="⏎"
-			android:codes="10"
-			android:keyWidth="10%p"
 			android:isRepeatable="true"
 			android:longCode="0"
 		/>
