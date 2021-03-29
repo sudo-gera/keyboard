@@ -4,7 +4,7 @@
 		<Key 
 			android:keyWidth="100%p"
 			android:keyboard="ru_me_p.xml"
-			android:keyLabel=" "
+			android:keyLabel="1"
 		/>
 	</Row>
 </Keyboard>

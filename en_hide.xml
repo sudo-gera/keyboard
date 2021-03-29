@@ -3,6 +3,7 @@
 	<Row android:keyHeight="50%p">
 		<Key 
 			android:keyWidth="100%p"
+			android:codes="48"
 			android:keyboard="en_me_p.xml"
 			android:keyLabel="1"
 		/>
