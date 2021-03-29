@@ -184,7 +184,7 @@
 		/>
 		<Key 
 			android:keyLabel="︾"
-			android:keyboard="ru_hide.xml"
+			android:keyboard="en_hide.xml"
 		/>
 		<Key 
 			android:keyLabel="⇧"
