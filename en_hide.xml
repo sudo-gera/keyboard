@@ -4,6 +4,7 @@
 		<Key 
 			android:keyWidth="100%p"
 			android:keyboard="en_me_p.xml"
+			android:keyLabel=" "
 		/>
 	</Row>
 </Keyboard>
