@@ -1,10 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Keyboard xmlns:android="http://schemas.android.com/apk/res/android" android:keyWidth="10.0%p" >
-	<Row android:keyHeight="50%p">
+	<Row>
 		<Key 
-			android:keyWidth="100%p"
-			android:keyboard="en_me_p.xml"
-			android:keyLabel=" "
+			android:keyLabel="!\n1"
+		/>
+		<Key 
+			android:keyLabel="@\n2"
+		/>
+		<Key 
+			android:keyLabel="#\n3"
+		/>
+		<Key 
+			android:keyLabel="$\n4"
+		/>
+		<Key 
+			android:keyLabel="%\n5"
+		/>
+		<Key 
+			android:keyLabel="^\n6"
+		/>
+		<Key 
+			android:keyLabel="&amp;\n7"
+		/>
+		<Key 
+			android:keyLabel="*\n8"
+		/>
+		<Key 
+			android:keyLabel="(\n9"
+		/>
+		<Key 
+			android:keyLabel=")\n0"
 		/>
 	</Row>
 </Keyboard>
