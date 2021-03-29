@@ -123,19 +123,19 @@
 			android:keyLabel="?\nm"
 		/>
 		<Key 
-			android:keyLabel="︾"
+			android:keyLabel=""
 			android:codes="0"
 			android:longCode="0"
 			android:isRepeatable="true"
 		/>
 		<Key 
-			android:keyLabel="︾"
+			android:keyLabel=""
 			android:codes="0"
 			android:longCode="0"
 			android:isRepeatable="true"
 		/>
 		<Key 
-			android:keyLabel="︾"
+			android:keyLabel=""
 			android:codes="0"
 			android:longCode="0"
 			android:isRepeatable="true"
@@ -156,7 +156,7 @@
 			android:longCode="0"
 		/>
 		<Key 
-			android:keyLabel="︾"
+			android:keyLabel=""
 			android:codes="0"
 			android:longCode="0"
 			android:isRepeatable="true"
@@ -213,7 +213,7 @@
 			android:longCode="0"
 		/>
 		<Key 
-			android:keyLabel="︾"
+			android:keyLabel=""
 			android:codes="0"
 			android:longCode="0"
 			android:isRepeatable="true"
