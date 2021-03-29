@@ -184,9 +184,7 @@
 		/>
 		<Key 
 			android:keyLabel="︾"
-			android:codes="-3"
-			android:longCode="0"
-			android:isRepeatable="true"
+			android:keyboard="ru_hide.xml"
 		/>
 		<Key 
 			android:keyLabel="⇧"
